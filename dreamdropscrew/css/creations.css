@@ -1,0 +1,202 @@
+/* =========================================
+   CREATIONS PAGE STYLES
+   ========================================= */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff66de;
+  color: #333;
+}
+
+/* Header Section */
+.header {
+  padding: 60px 20px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: #ffe600;
+}
+
+/* Navbar */
+.topnav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #000;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.topnav a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Gallery Grid */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Card Style */
+.card {
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #222;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: #444;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Image: always square */
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+.card:hover img {
+  filter: brightness(0.8);
+}
+
+/* Cinematic Overlay for Cards */
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.4) 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* Info Section inside Card */
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+/* Filename/Title */
+.filename {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  word-break: break-word;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Glass Share Button */
+.share-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 18px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.3s;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.share-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  color: #888;
+  text-align: center;
+  padding: 60px 20px;
+  border-top: 1px solid #222;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 10px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.footer a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  #gallery {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding: 20px;
+    gap: 15px;
+  }
+}
+
+/* Mobile (Locked TopNav & Grid Adjustments) */
+@media (max-width: 768px) {
+  #gallery {
+    grid-template-columns: 1fr; /* Single column on phones for impact */
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .card:hover {
+    transform: none; /* Disable hover lift on mobile for better scrolling */
+  }
+}
