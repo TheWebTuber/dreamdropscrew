@@ -77,7 +77,7 @@
   function showVideos(videos, updatedAt) {
     const good = videos.filter(v => v && youtubeId.test(v.id || '')).slice(0,6);
     if (!good.length) {
-      showEmpty('The six latest livestreams will appear here once the optional YouTube auto-update workflow has been connected.');
+      showEmpty('The latest livestreams will appear here as soon as the YouTube API key is configured.');
       return;
     }
     grid.replaceChildren();
@@ -99,15 +99,127 @@
     });
     status.textContent = `${good.length} recent public livestream${good.length===1?'':'s'}${updatedAt ? ' · Feed updated '+stringDate(updatedAt) : ''}`;
   }
-  (async () => {
+  // Direct YouTube Data API v3 method - for a static site with NO .github workflow.
+  // All API requests come from the visitor's browser. The key must be restricted
+  // to the site's HTTP referrers AND the YouTube Data API to limit abuse.
+  const config = window.DDC_YOUTUBE_CONFIG || {};
+  const apiKey = typeof config.apiKey === 'string' ? config.apiKey.trim() : '';
+  const handle = typeof config.channelHandle === 'string' && config.channelHandle.trim()
+    ? config.channelHandle.trim() : '@DreamDropsCrew';
+  const configured = apiKey && !apiKey.includes('PASTE_YOUR_');
+  const cacheKey = 'ddc-yt-livestreams-v3-' + handle;
+  const cacheMs = 60 * 60 * 1000; // Each visitor refreshes at most hourly while browsing.
+  const maxPages = 8; // Scan up to 400 public uploads if streams aren't frequent.
+
+  function getCache() {
     try {
-      const r = await fetch('data/livestreams.json', {cache:'no-store'});
-      if(!r.ok)throw new Error('HTTP '+r.status);
-      const feed=await r.json();
-      showVideos(Array.isArray(feed.videos) ? feed.videos : [], feed.updatedAt);
-    } catch (error) {
-      console.info('Dream Drops Crew livestream feed unavailable:',error);
-      showEmpty('The livestream feed is not available right now. You can still browse the crew’s streams directly on YouTube.');
+      const c = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+      if (c && typeof c.fetchedAt === 'number' && Array.isArray(c.videos)) return c;
+    } catch (_) {}
+    return null;
+  }
+  function putCache(videos) {
+    const cache = {fetchedAt: Date.now(), videos};
+    try {localStorage.setItem(cacheKey, JSON.stringify(cache));} catch (_) {}
+    return cache;
+  }
+  async function youtubeRequest(resource, parameters) {
+    const url = new URL(`https://www.googleapis.com/youtube/v3/${resource}`);
+    Object.entries({...parameters, key:apiKey}).forEach(([name,value]) => {
+      if (value !== undefined && value !== null && value !== '') url.searchParams.set(name,String(value));
+    });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+    let response;
+    try { response = await fetch(url.toString(), {signal:controller.signal}); }
+    finally { clearTimeout(timeout); }
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || data.error) {
+      const detail = data.error?.message || `HTTP ${response.status}`;
+      throw new Error(`YouTube API: ${detail}`);
     }
-  })();
+    return data;
+  }
+
+  // 1 quota unit: resolve the channel handle to its official uploads playlist.
+  // Checking the uploads playlist rather than search.list is much cheaper
+  // and avoids treating ordinary uploads or scheduled events as livestreams.
+  async function loadLatestLivestreams() {
+    const channels = await youtubeRequest('channels', {part:'contentDetails', forHandle:handle});
+    const playlistId = channels.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
+    if (!playlistId) throw new Error('The public uploads playlist was not found for '+handle);
+    const streams = [];
+    const seen = new Set();
+    let nextPageToken = '';
+    for (let i = 0; i < maxPages && streams.length < 6; i++) {
+      // 1 quota unit/page: scan 50 uploaded video IDs per page.
+      const playlist = await youtubeRequest('playlistItems', {
+        part:'contentDetails', playlistId, maxResults:50, pageToken:nextPageToken
+      });
+      const ids = (playlist.items || []).map(v => v.contentDetails?.videoId)
+        .filter(id => youtubeId.test(id || '') && !seen.has(id));
+      ids.forEach(id => seen.add(id));
+      if (ids.length) {
+        // 1 quota unit/batch: check the actual liveStreamingDetails for each video.
+        const details = await youtubeRequest('videos', {
+          part:'snippet,liveStreamingDetails', id:ids.join(',')
+        });
+        for (const video of details.items || []) {
+          const live = video.liveStreamingDetails;
+          // Excludes ordinary uploaded videos AND upcoming, not-yet-started streams.
+          if (!live?.actualStartTime || !youtubeId.test(video.id || '')) continue;
+          streams.push({
+            id:video.id,
+            title:video.snippet?.title || 'Dream Drops Crew livestream',
+            publishedAt:video.snippet?.publishedAt || '',
+            startedAt:live.actualStartTime,
+            live:!live.actualEndTime && video.snippet?.liveBroadcastContent === 'live'
+          });
+        }
+      }
+      nextPageToken = playlist.nextPageToken || '';
+      if (!nextPageToken) break;
+    }
+    streams.sort((a,b) => (Number(b.live)-Number(a.live)) ||
+      (Date.parse(b.startedAt || b.publishedAt) - Date.parse(a.startedAt || a.publishedAt)));
+    return streams.slice(0,6);
+  }
+
+  let refreshBusy = false;
+  async function refreshStreamFeed() {
+    if (refreshBusy) return;
+    const saved = getCache();
+    // Cache prevents repeated API calls whenever the visitor switches pages.
+    if (saved && Date.now()-saved.fetchedAt < cacheMs) {
+      showVideos(saved.videos, new Date(saved.fetchedAt).toISOString());
+      return;
+    }
+    if (!configured) {
+      if(saved?.videos.length) showVideos(saved.videos,new Date(saved.fetchedAt).toISOString());
+      else showEmpty('Connect your YouTube Data API key in js/youtube-config.js to display the latest livestreams here.');
+      return;
+    }
+    refreshBusy = true;
+    if(!saved) status.textContent = 'Checking YouTube for recent livestreams…';
+    try {
+      const videos=await loadLatestLivestreams();
+      const fresh=putCache(videos);
+      showVideos(fresh.videos,new Date(fresh.fetchedAt).toISOString());
+      if (!videos.length) showEmpty('No public completed or currently live streams were found in the channel’s most recent uploads. Browse YouTube directly to see everything.');
+    } catch(error) {
+      console.warn('Dream Drops Crew livestream feed error:',error);
+      if(saved?.videos.length) {
+        showVideos(saved.videos,new Date(saved.fetchedAt).toISOString());
+        status.textContent += ' · Showing saved results (YouTube is temporarily unavailable)';
+      } else {
+        showEmpty('The live feed could not load. Check your domain-restricted API key, quota, and internet connection, or visit YouTube directly.');
+      }
+    } finally {refreshBusy=false;}
+  }
+  refreshStreamFeed();
+  // Automatically check again while the page stays open; hidden tabs skip requests.
+  setInterval(() => {if(!document.hidden) refreshStreamFeed();}, cacheMs);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) refreshStreamFeed();
+  });
 })();
