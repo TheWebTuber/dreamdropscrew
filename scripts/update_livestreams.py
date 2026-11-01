@@ -15,7 +15,7 @@ CHANNEL_HANDLE = os.environ.get('YOUTUBE_HANDLE', 'DreamDropsCrew').lstrip('@')
 API_KEY = os.environ.get('YOUTUBE_API_KEY', '').strip()
 SITE_DIR = Path(os.environ.get('SITE_DIR', 'dreamdropscrew'))
 DEST = SITE_DIR / 'data' / 'livestreams.json'
-API = 'https://www.googleapis.com/youtube/v3/AIzaSyBvpCwNhDR-PvJ02tJ2iJDekFc3R9-g5V0'
+API = 'https://www.googleapis.com/youtube/v3/'
 
 
 def youtube(method, **kwargs):
