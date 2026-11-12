@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" data-theme="storybook">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#65334D">
+  <meta name="description" content="All of the Dream Drops Crew emotes in one shared shelf. Browse Crystal, Sal, Blackjack, Daddy Depresso and PMOG, search reactions and copy direct GIF links.">
+  <title>The Crew Emote Shelf | Dream Drops Crew</title>
+  <link rel="canonical" href="https://dreamdropscrew.creatorpromote.com/emotes.html">
+  <link rel="icon" href="img/logo.jpg" type="image/jpeg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Crew Emote Shelf | Dream Drops Crew">
+  <meta property="og:description" content="A little shelf of laughs, reactions and magic from every Dream Drops Crew member.">
+  <meta property="og:image" content="https://dreamdropscrew.creatorpromote.com/img/logo.jpg">
+  <meta property="og:url" content="https://dreamdropscrew.creatorpromote.com/emotes.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/crew-directory.css">
+  <link rel="stylesheet" href="css/crew-emotes.css">
+  <script defer src="js/site.js"></script>
+  <script defer src="js/crew-emotes.js"></script>
+</head>
+<body class="emote-page">
+  <a href="#main" class="skip-link">Skip to emotes</a>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div>
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-flex page-width">
+      <a class="brand" href="index.html#home" aria-label="Dream Drops Crew home">
+        <span class="brand-icon" aria-hidden="true"><img src="img/logo.jpg" alt="" onerror="this.remove()"><span>✦</span></span>
+        <span class="brand-copy"><span class="brand-name">Dream Drops</span><span class="brand-subtitle">THE CREW <span aria-hidden="true">✧</span></span></span>
+      </a>
+      <button id="mobile-menu" class="mobile-menu" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span>☰</span></button>
+      <div class="nav-links" id="nav-links"><a href="index.html#home">Home</a><a href="index.html#choose">Meet everyone</a><a href="emotes.html" aria-current="page">Crew emotes</a><a href="index.html#streams">Livestreams</a></div>
+      <button class="palette-toggle" type="button" id="palette-toggle" title="Change colour palette" aria-label="Change colour palette"><span class="palette-dot" aria-hidden="true"></span><span id="palette-label">Storybook</span><span aria-hidden="true">✧</span></button>
+    </div>
+  </nav>
+  <main id="main">
+    <header class="emotes-hero page-width">
+      <div class="emotes-lead"><span class="section-kicker">THE DREAM DROPS CREW • SHARED COLLECTION</span>
+        <h1>The crew's <em>little expressions.</em></h1>
+        <p>Sometimes a GIF says everything. Browse the crew's emotes, follow their creators, and take a little reaction with you.</p>
+        <div class="emotes-hero-actions"><a class="btn btn-primary" href="#gallery">Explore the shelf ↓</a><a class="btn btn-quiet" href="index.html#choose">Meet the creators ↗</a></div>
+      </div>
+      <div class="emotes-postcard" aria-label="A little invitation from the crew"><div class="postcard-top"><span>✦ THE SHARED SHELF</span><span>No. 005</span></div><div class="postcard-emoji" aria-hidden="true"><span>✿</span><span>☾</span><span>☻</span></div><strong>A reaction<br>for every<br><em>adventure.</em></strong><span class="postcard-foot">PICK ONE • SHARE A SMILE</span></div>
+    </header>
+    <section class="emotes-owner-section page-width" aria-label="Choose a creator">
+      <div class="emote-section-top"><div><span class="section-kicker">FIVE UNIQUE WORLDS</span><h2>Choose a creator</h2></div><p>Or choose <strong>Everyone</strong> to mix all their reactions.</p></div>
+      <div class="emotes-owners" id="emote-owners" role="group" aria-label="Filter by creator">
+        <button class="owner-chip is-active" data-owner="all" type="button" aria-pressed="true"><span class="owner-crest all-crest">✦</span><span>Everyone</span><small id="count-all">0</small></button>
+        <button class="owner-chip" data-owner="crystal" type="button" aria-pressed="false"><span class="owner-crest rose-crest">✿</span><span>Crystal</span><small id="count-crystal">0</small></button>
+        <button class="owner-chip" data-owner="sal" type="button" aria-pressed="false"><span class="owner-crest ocean-crest">✧</span><span>Sal</span><small id="count-sal">0</small></button>
+        <button class="owner-chip" data-owner="blackjack" type="button" aria-pressed="false"><span class="owner-crest gold-crest">♠</span><span>Blackjack</span><small id="count-blackjack">0</small></button>
+        <button class="owner-chip" data-owner="daddy" type="button" aria-pressed="false"><span class="owner-crest moss-crest">☻</span><span>Daddy Depresso</span><small id="count-daddy">0</small></button>
+        <button class="owner-chip" data-owner="pmog" type="button" aria-pressed="false"><span class="owner-crest purple-crest">☾</span><span>PMOG</span><small id="count-pmog">0</small></button>
+      </div>
+    </section>
+    <section class="page-width emotes-gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="emote-section-top"><div><span class="section-kicker">THE LITTLE REACTION LIBRARY</span><h2 id="gallery-title">Pick a little feeling.</h2></div><span id="emote-counter" class="total-pill" aria-live="polite">Loading collection…</span></div>
+      <div class="emote-toolbar">
+        <label class="emote-search-field" for="emote-search"><span aria-hidden="true">⌕</span><input id="emote-search" type="search" autocomplete="off" placeholder="Search a name, feeling or creator…" aria-label="Search emotes"></label>
+        <label class="emote-select-wrap" for="emote-type"><span>Format</span><select id="emote-type"><option value="all">All formats</option><option value="animated">Animated GIFs</option><option value="static">Still images</option></select></label>
+        <label class="emote-select-wrap" for="emote-order"><span>Order</span><select id="emote-order"><option value="az">Name A–Z</option><option value="za">Name Z–A</option><option value="creator">By creator</option></select></label>
+      </div>
+      <div class="emote-status-line"><p id="emote-status" role="status" aria-live="polite">Gathering the crew's emotes…</p><button type="button" id="emote-clear" class="emote-clear" hidden>Clear filters</button></div>
+      <div class="crew-emote-grid" id="crew-emote-grid" aria-live="polite" aria-busy="true"></div>
+      <div id="emote-empty" class="emote-empty" hidden><span aria-hidden="true">✧</span><h3 id="emote-empty-title">The shelf is resting.</h3><p id="emote-empty-desc">No emotes have been indexed yet.</p><a href="#member-galleries" class="btn btn-quiet">Visit the original galleries ↓</a></div>
+    </section>
+    <section class="page-width emote-origin-section" id="member-galleries" aria-labelledby="origin-title">
+      <div class="emote-section-top"><div><span class="section-kicker">THE ORIGINAL LITTLE WORLDS</span><h2 id="origin-title">Visit each creator's own gallery.</h2></div><p>The original pages remain the source of their emotes and credit.</p></div>
+      <div class="emote-origin-grid">
+        <a class="emote-origin tone-rose" href="https://crystalsdreamdrops.creatorpromote.com/emotes" target="_blank" rel="noopener noreferrer"><span>✿</span><strong>Crystal's Emote Garden</strong><small>Visit Crystal ↗</small></a>
+        <a class="emote-origin tone-ocean" href="https://salahare.creatorpromote.com/emotes.html" target="_blank" rel="noopener noreferrer"><span>✧</span><strong>Sal's Expressions</strong><small>Visit Sal ↗</small></a>
+        <a class="emote-origin tone-gold" href="https://blackjacksetzer.creatorpromote.com/emotes" target="_blank" rel="noopener noreferrer"><span>♠</span><strong>Blackjack's Emote Vault</strong><small>Visit Blackjack ↗</small></a>
+        <a class="emote-origin tone-moss" href="https://daddydepresso.creatorpromote.com/emotes.html" target="_blank" rel="noopener noreferrer"><span>☻</span><strong>Daddy's Raccoon Stash</strong><small>Visit Daddy Depresso ↗</small></a>
+        <a class="emote-origin tone-purple" href="https://pmog.creatorpromote.com/" target="_blank" rel="noopener noreferrer"><span>☾</span><strong>PMOG's Creations</strong><small>Visit PMOG ↗</small></a>
+      </div>
+      <p class="emotes-credits">All original emotes and artwork belong to their respective creators. This page simply gathers their public links in one place. <a href="emotes" class="emote-original-link">Also see the original crew emotes ↗</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width"><div class="footer-main"><div class="footer-brand"><span class="footer-star" aria-hidden="true">✦</span><h2>Dream Drops Crew</h2><p>All of our little worlds, one happy place.</p></div><div class="footer-links"><h3>More adventures</h3><div class="social-links"><a href="index.html">Back to crew homepage</a><a href="https://www.youtube.com/@DreamDropsCrew" target="_blank" rel="noopener noreferrer">YouTube ↗</a><a href="https://discord.gg/ygK9J5ufPG" target="_blank" rel="noopener noreferrer">Discord ↗</a></div></div></div><div class="footer-bottom"><p>Made with ♥ by <a href="https://www.youtube.com/@PMOG" target="_blank" rel="noopener noreferrer">Portal Master Of Games</a></p><p>© <span id="year">2026</span> Dream Drops Crew · Stay whimsical ✦</p></div></div></footer>
+</body>
+</html>
