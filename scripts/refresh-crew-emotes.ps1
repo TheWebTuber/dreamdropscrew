@@ -1,6 +1,8 @@
 # Dream Drops Crew public emote index updater (Windows PowerShell 5.1+ / PowerShell 7)
 # Run from website ROOT: powershell -ExecutionPolicy Bypass -File .\scripts\refresh-crew-emotes.ps1
 # Does not edit creator sites; reads public JSON files and verifies image paths.
+# Improved verifier: tries HEAD, then ranged GET when HEAD is blocked.
+# Blackjack images confirmed at /emotes/files/; their JSON is at /emotes/emotes.json.
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
@@ -9,7 +11,7 @@ try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::
 $Sources = @(
   @{ Id='crystal'; Base='https://crystalsdreamdrops.creatorpromote.com/'; Gallery='emotes'; Json=@('emotes/emotes.json','emotes.json','emotes/jdgifs.json','jdgifs.json','emotes/gifs.json','gifs.json'); Images=@('emotes/','jdemotes/','emotes/jdemotes/','emotes/gifs/','gifs/','img/','emotes/img/','') },
   @{ Id='sal'; Base='https://salahare.creatorpromote.com/'; Gallery='emotes.html'; Json=@('emotes.json','emotes/emotes.json','gifs.json','emotes/gifs.json','jdgifs.json'); Images=@('emotes/','gifs/','img/','emotes/gifs/','') },
-  @{ Id='blackjack'; Base='https://blackjacksetzer.creatorpromote.com/'; Gallery='emotes.html'; Json=@('emotes.json','emotes/emotes.json','gifs.json','emotes/gifs.json','jdgifs.json'); Images=@('emotes/','gifs/','img/','emotes/gifs/','') },
+  @{ Id='blackjack'; Base='https://blackjacksetzer.creatorpromote.com/'; Gallery='emotes.html'; Json=@('emotes/emotes.json','emotes.json','gifs.json','emotes/gifs.json','jdgifs.json'); Images=@('emotes/files/','emotes/','gifs/','img/','emotes/gifs/','') },
   @{ Id='daddy'; Base='https://daddydepresso.creatorpromote.com/'; Gallery='emotes.html'; Json=@('emotes/emotes.json'); Images=@('emotes/') },
   @{ Id='pmog'; Base='https://pmog.creatorpromote.com/'; Gallery='emotes'; Json=@('emotes.json','emotes/emotes.json','gifs.json','emotes/gifs.json','jdgifs.json','jdemotes/jdgifs.json'); Images=@('emotes/','gifs/','jdemotes/','img/','emotes/gifs/','') }
 )
@@ -26,13 +28,27 @@ function Is-SafeName([string]$name) {
 }
 function Encode-Name([string]$name) { return [Uri]::EscapeDataString($name) }
 function Is-ImageReachable([string]$url) {
-  try {
-    $resp=Invoke-WebRequest -Uri $url -Method Head -UseBasicParsing -TimeoutSec 7
-    return ([int]$resp.StatusCode -ge 200 -and [int]$resp.StatusCode -lt 400)
-  } catch {
-    # Certain hosts deny HEAD; a 405 is inconclusive, not a verified image.
-    return $false
+  # Some hosts reject HEAD even though the image works in a browser.
+  # Try HEAD first, then a ranged GET. A real image response is required.
+  foreach ($method in @('Head','Get')) {
+    try {
+      $args = @{
+        Uri=$url; Method=$method; UseBasicParsing=$true; TimeoutSec=9;
+        ErrorAction='Stop'
+      }
+      if ($method -eq 'Get') { $args.Headers = @{ Range='bytes=0-0' } }
+      $resp = Invoke-WebRequest @args
+      $code = [int]$resp.StatusCode
+      $ctype = [string]$resp.Headers['Content-Type']
+      if (($code -ge 200 -and $code -lt 300) -and
+          ($ctype -match '(?i)^image/' -or $ctype -match '(?i)^application/octet-stream')) {
+        return $true
+      }
+    } catch {
+      # HEAD 403/405 or other errors: GET may still work.
+    }
   }
+  return $false
 }
 function Extract-Files($data) {
   $output=@()
@@ -127,16 +143,29 @@ foreach($src in $Sources){
   $first=$list[0]
   $selectedImageBase=$null
   if(-not $first.Url){
-    foreach($path in $src.Images){
+    # Prefer the directory containing the JSON when files are beside it.
+    $jsonDir=([Uri]$chosenJson).AbsolutePath -replace '[^/]+$',''
+    $candidates=@()
+    if($jsonDir -ne '/') { $candidates += $jsonDir.TrimStart('/') }
+    $candidates += @($src.Images)
+    $candidates = @($candidates | Select-Object -Unique)
+    $samples=@($list[0].File)
+    if($list.Count -gt 2){$samples+= $list[[int][Math]::Floor($list.Count/2)].File}
+    foreach($path in $candidates){
       $base=[Uri]::new([Uri]$src.Base,[string]$path).AbsoluteUri
-      if(Is-ImageReachable ($base+(Encode-Name $first.File))){$selectedImageBase=$base;break}
+      foreach($sample in $samples){
+        if(Is-ImageReachable ($base+(Encode-Name $sample))){$selectedImageBase=$base;break}
+      }
+      if($selectedImageBase){break}
     }
     if(-not $selectedImageBase){
       # Do not add made-up image links that cannot be verified.
       $oldMember=@($previous | Where-Object { $_.member -eq $src.Id })
       $all+= $oldMember
       $sourcesState[$src.Id]=@{status='image folder unverified, previous entries kept';count=$oldMember.Count;json=$chosenJson}
-      Write-Warning "Found emote JSON but cannot verify its image directory. Check Images paths for $($src.Id)."
+      Write-Warning "Found emote JSON but cannot verify the image URL for $($src.Id). Check an actual image's Copy Image Address in the creator gallery and add its folder to Images." 
+      Write-Host "  First sample filename: $($first.File)" -ForegroundColor Yellow
+      Write-Host "  Example URL checked: $($src.Base)$($candidates[0])$(Encode-Name $first.File)" -ForegroundColor Yellow
       continue
     }
     Write-Host "Verified image folder: $selectedImageBase" -ForegroundColor Green
