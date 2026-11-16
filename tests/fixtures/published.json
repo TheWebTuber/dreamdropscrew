@@ -1,0 +1,1412 @@
+{
+  "version": 1,
+  "slug": "dreamdropscrew",
+  "label": "Dream Drops Crew",
+  "updatedAt": "2026-11-16T16:27:47.913Z",
+  "source": "YouTube Data API v3 via GitHub Actions",
+  "channel": {
+    "kind": "youtube#channel",
+    "etag": "AqyEEWo_2uIzufG4jopylRTPh4I",
+    "id": "UCuK6uJXgGlJd4TLNjTwtluA",
+    "snippet": {
+      "title": "Dream Drops Crew",
+      "description": "A small group of friends playing all types of games",
+      "customUrl": "@dreamdropscrew",
+      "publishedAt": "2021-11-25T17:45:02.667771Z",
+      "thumbnails": {
+        "default": {
+          "url": "https://yt3.ggpht.com/OTCLC30H8bq1fkJyxJn7iIk7IGzKDL6jP96akmky7-AUvt50WpyeYEXmQQqDyceRTMkLcgd5Rps=s88-c-k-c0x00ffffff-no-rj",
+          "width": 88,
+          "height": 88
+        },
+        "medium": {
+          "url": "https://yt3.ggpht.com/OTCLC30H8bq1fkJyxJn7iIk7IGzKDL6jP96akmky7-AUvt50WpyeYEXmQQqDyceRTMkLcgd5Rps=s240-c-k-c0x00ffffff-no-rj",
+          "width": 240,
+          "height": 240
+        },
+        "high": {
+          "url": "https://yt3.ggpht.com/OTCLC30H8bq1fkJyxJn7iIk7IGzKDL6jP96akmky7-AUvt50WpyeYEXmQQqDyceRTMkLcgd5Rps=s800-c-k-c0x00ffffff-no-rj",
+          "width": 800,
+          "height": 800
+        }
+      },
+      "localized": {
+        "title": "Dream Drops Crew",
+        "description": "A small group of friends playing all types of games"
+      }
+    },
+    "contentDetails": {
+      "relatedPlaylists": {
+        "likes": "",
+        "uploads": "UUuK6uJXgGlJd4TLNjTwtluA"
+      }
+    },
+    "statistics": {
+      "viewCount": "99192",
+      "subscriberCount": "505",
+      "hiddenSubscriberCount": false,
+      "videoCount": "868"
+    },
+    "brandingSettings": {
+      "channel": {
+        "title": "Dream Drops Crew",
+        "description": "A small group of friends playing all types of games"
+      },
+      "image": {
+        "bannerExternalUrl": "https://yt3.googleusercontent.com/kfrxX00Mv4dA4EvKV8MJdi6sDzlQ3QC-MeqYKOGKmssdvWPI5OIHcR2rJ7Hcit48-0W3O4fqEA"
+      }
+    },
+    "url": "https://www.youtube.com/channel/UCuK6uJXgGlJd4TLNjTwtluA"
+  },
+  "uploads": [
+    {
+      "kind": "youtube#video",
+      "etag": "iXT1Ko4Ee3IJ9zzx1V82AP5yV-0",
+      "id": "5qfMc-EK3p4",
+      "snippet": {
+        "publishedAt": "2026-11-13T18:31:15Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Feeling cozy in a new dress - Dressmaker",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Dressmaker",
+          "cozy",
+          "fashion"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Feeling cozy in a new dress - Dressmaker",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H17M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "27",
+        "likeCount": "4",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-13T02:03:52Z",
+        "actualEndTime": "2026-11-13T04:25:18Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "3Qwn7Pw7Z4NX-mdm_Apz6E8a83I",
+      "id": "_xdGpmss-y4",
+      "snippet": {
+        "publishedAt": "2026-11-13T05:24:19Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "(Portrait) Feeling cozy in a new dress - Dressmaker",
+        "description": "More fashion foward tailoring with Blackjack and Salahare",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://i.ytimg.com/vi/_xdGpmss-y4/qhddefault.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "(Portrait) Feeling cozy in a new dress - Dressmaker",
+          "description": "More fashion foward tailoring with Blackjack and Salahare"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H18M2S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "6",
+        "likeCount": "1",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "g0UbS1Bz-dL1pVeTMjoniZjobXE",
+      "id": "7p1l4-YNuFQ",
+      "snippet": {
+        "publishedAt": "2026-11-11T18:31:34Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Money! Money!! Money!!! - Raccoin",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Nintendo",
+          "Switch",
+          "Raccoin"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Money! Money!! Money!!! - Raccoin",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H56M55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "51",
+        "likeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-11T02:02:15Z",
+        "actualEndTime": "2026-11-11T05:02:13Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "dm3-zR2zhzDOXqOCQn6gtMeG8uk",
+      "id": "KGoPudyhZLg",
+      "snippet": {
+        "publishedAt": "2026-11-11T06:40:32Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "(Portrait) Money! Money!! Money!!! - Raccoin",
+        "description": "It was time for Blackjack do something casino related",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://i.ytimg.com/vi/KGoPudyhZLg/qhddefault.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "(Portrait) Money! Money!! Money!!! - Raccoin",
+          "description": "It was time for Blackjack do something casino related"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H56M21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "3",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "hAD10NWQ5oLDrpNnCc8rft7qxhU",
+      "id": "_Lq5pKJ_TwM",
+      "snippet": {
+        "publishedAt": "2026-11-10T17:47:59Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Onward to our last badge! - Pokemon Shining Pearl",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Nintendo",
+          "Pokemon",
+          "Shining Pearl",
+          "Switch"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Onward to our last badge! - Pokemon Shining Pearl",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H32M10S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "64",
+        "likeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-10T02:07:01Z",
+        "actualEndTime": "2026-11-10T04:41:32Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "QrOgAD9rARlg1uVgKVZ5YWNOoNE",
+      "id": "DlqDJt0wIgo",
+      "snippet": {
+        "publishedAt": "2026-11-10T05:36:01Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Onward to our last badge! - Pokemon Shining Pearl",
+        "description": "With team Galactic deal with we can see the end of our journey! let's get the 8th medal and onto the Elite Four!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://i.ytimg.com/vi/DlqDJt0wIgo/qhddefault.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Onward to our last badge! - Pokemon Shining Pearl",
+          "description": "With team Galactic deal with we can see the end of our journey! let's get the 8th medal and onto the Elite Four!"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H32M22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "16",
+        "likeCount": "1",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "replays": [
+    {
+      "kind": "youtube#video",
+      "etag": "iXT1Ko4Ee3IJ9zzx1V82AP5yV-0",
+      "id": "5qfMc-EK3p4",
+      "snippet": {
+        "publishedAt": "2026-11-13T18:31:15Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Feeling cozy in a new dress - Dressmaker",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5qfMc-EK3p4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Dressmaker",
+          "cozy",
+          "fashion"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Feeling cozy in a new dress - Dressmaker",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H17M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "27",
+        "likeCount": "4",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-13T02:03:52Z",
+        "actualEndTime": "2026-11-13T04:25:18Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "g0UbS1Bz-dL1pVeTMjoniZjobXE",
+      "id": "7p1l4-YNuFQ",
+      "snippet": {
+        "publishedAt": "2026-11-11T18:31:34Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Money! Money!! Money!!! - Raccoin",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/7p1l4-YNuFQ/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Nintendo",
+          "Switch",
+          "Raccoin"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Money! Money!! Money!!! - Raccoin",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H56M55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "51",
+        "likeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-11T02:02:15Z",
+        "actualEndTime": "2026-11-11T05:02:13Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "hAD10NWQ5oLDrpNnCc8rft7qxhU",
+      "id": "_Lq5pKJ_TwM",
+      "snippet": {
+        "publishedAt": "2026-11-10T17:47:59Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Onward to our last badge! - Pokemon Shining Pearl",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "Nintendo",
+          "Pokemon",
+          "Shining Pearl",
+          "Switch"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Onward to our last badge! - Pokemon Shining Pearl",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H32M10S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "64",
+        "likeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-10T02:07:01Z",
+        "actualEndTime": "2026-11-10T04:41:32Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "taImtGxofOp11CGqd6BKeOEOzJ0",
+      "id": "1mk5a3N4ODk",
+      "snippet": {
+        "publishedAt": "2026-11-07T18:14:42Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Dark Necessities: The Storm over Thet-Annath Ep 42 (DnD)",
+        "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1mk5a3N4ODk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1mk5a3N4ODk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1mk5a3N4ODk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1mk5a3N4ODk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "png tuber",
+          "tabletop",
+          "ttrpg",
+          "dnd",
+          "d&d",
+          "dnd5e",
+          "5e 2014",
+          "dungeons",
+          "dragons",
+          "role play",
+          "roll20"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Dark Necessities: The Storm over Thet-Annath Ep 42 (DnD)",
+          "description": "The Crew's individual channels! \n\nDepresso:\nhttps://www.youtube.com/@daddydepresso\n(Depresso is also available as a Game/Dungeon master. For more information, please email josephpenax@gmail.com )\n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H57M52S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "109",
+        "likeCount": "3",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-07T02:06:48Z",
+        "actualEndTime": "2026-11-07T05:04:57Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Bs2W4r1Rin2UPk9B9FDU9JEguB8",
+      "id": "1YD1ZIu4A1s",
+      "snippet": {
+        "publishedAt": "2026-11-06T17:52:07Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "Vs Team Galactic! -  Pokemon Shining Pearl",
+        "description": "The Crew's individual channels! \n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\nDaddy Depresso:\nhttps://www.youtube.com/@daddydepresso\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/1YD1ZIu4A1s/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "3d vtuber",
+          "chill gaming",
+          "Nintendo",
+          "Pokemon",
+          "Shining Pearl"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Vs Team Galactic! -  Pokemon Shining Pearl",
+          "description": "The Crew's individual channels! \n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\nDaddy Depresso:\nhttps://www.youtube.com/@daddydepresso\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2H21M10S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "65",
+        "likeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-06T02:24:32Z",
+        "actualEndTime": "2026-11-06T04:46:02Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "DI8NtzasGEIvawm4CzDzLp1Fuiw",
+      "id": "-3VZZpsJq5U",
+      "snippet": {
+        "publishedAt": "2026-11-05T19:13:24Z",
+        "channelId": "UCuK6uJXgGlJd4TLNjTwtluA",
+        "title": "It's freezing out here! -  Pokemon Shining Pearl",
+        "description": "The Crew's individual channels! \n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\nDaddy Depresso:\nhttps://www.youtube.com/@daddydepresso\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://i.ytimg.com/vi/-3VZZpsJq5U/fhddefault.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Dream Drops Crew",
+        "tags": [
+          "gameplay",
+          "games",
+          "vtuber",
+          "3d vtuber",
+          "chill gaming",
+          "Nintendo",
+          "Pokemon",
+          "Shining Pearl"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "It's freezing out here! -  Pokemon Shining Pearl",
+          "description": "The Crew's individual channels! \n\nCrystal's Channel:\nhttps://www.youtube.com/@crystalsdreamdrops\n\nSalahare’s Channel:\nhttps://www.youtube.com/@Salahare\n\nBlackjack's Channel:\nhttps://www.youtube.com/@blackjacksetzer\n\nPortal Master of Games channel:\nhttps://www.youtube.com/@PMOG\n\nDaddy Depresso:\nhttps://www.youtube.com/@daddydepresso\n\n-------------------------------------------------------------------------------------------------------------------------------------------\n\nJoin our Discord!\nhttps://discord.gg/vYk7fXn9Qc\n\n---------------------------------------------------------------\n\nDonate at Streamlabs:\nhttps://streamlabs.com/jdsdreamdrops\n\nPatreon:\npatreon.com/DreamDropsDrifters\n\n------------------------------------------------------------------------------------------------------------------------------------------\n\nFollow us on Tiktok\n@DreamDropsCrew\n\nCheck out our fan made website!: \nhttps://creatorpromote.com/dreamdropscrew/"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT52M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "85",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-05T02:12:23Z",
+        "actualEndTime": "2026-11-05T03:04:58Z"
+      }
+    }
+  ],
+  "live": null,
+  "liveChecked": false,
+  "latestVideos": [
+    {
+      "id": "5qfMc-EK3p4",
+      "title": "Feeling cozy in a new dress - Dressmaker",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T18:31:15Z",
+      "startedAt": "2026-11-13T02:03:52Z",
+      "endedAt": "2026-11-13T04:25:18Z",
+      "scheduledAt": null,
+      "duration": "PT2H17M13S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/5qfMc-EK3p4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5qfMc-EK3p4",
+      "views": "27",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "_xdGpmss-y4",
+      "title": "(Portrait) Feeling cozy in a new dress - Dressmaker",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T05:24:19Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT2H18M2S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/_xdGpmss-y4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_xdGpmss-y4",
+      "views": "6",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "7p1l4-YNuFQ",
+      "title": "Money! Money!! Money!!! - Raccoin",
+      "label": "YouTube",
+      "publishedAt": "2026-11-11T18:31:34Z",
+      "startedAt": "2026-11-11T02:02:15Z",
+      "endedAt": "2026-11-11T05:02:13Z",
+      "scheduledAt": null,
+      "duration": "PT2H56M55S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/7p1l4-YNuFQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7p1l4-YNuFQ",
+      "views": "51",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "KGoPudyhZLg",
+      "title": "(Portrait) Money! Money!! Money!!! - Raccoin",
+      "label": "YouTube",
+      "publishedAt": "2026-11-11T06:40:32Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT2H56M21S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/KGoPudyhZLg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KGoPudyhZLg",
+      "views": "3",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "_Lq5pKJ_TwM",
+      "title": "Onward to our last badge! - Pokemon Shining Pearl",
+      "label": "YouTube",
+      "publishedAt": "2026-11-10T17:47:59Z",
+      "startedAt": "2026-11-10T02:07:01Z",
+      "endedAt": "2026-11-10T04:41:32Z",
+      "scheduledAt": null,
+      "duration": "PT2H32M10S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_Lq5pKJ_TwM",
+      "views": "64",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "DlqDJt0wIgo",
+      "title": "Onward to our last badge! - Pokemon Shining Pearl",
+      "label": "YouTube",
+      "publishedAt": "2026-11-10T05:36:01Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT2H32M22S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/DlqDJt0wIgo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DlqDJt0wIgo",
+      "views": "16",
+      "live": false,
+      "wasLive": false
+    }
+  ],
+  "latestLivestreams": [
+    {
+      "id": "5qfMc-EK3p4",
+      "title": "Feeling cozy in a new dress - Dressmaker",
+      "label": "Livestream",
+      "publishedAt": "2026-11-13T18:31:15Z",
+      "startedAt": "2026-11-13T02:03:52Z",
+      "endedAt": "2026-11-13T04:25:18Z",
+      "scheduledAt": null,
+      "duration": "PT2H17M13S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/5qfMc-EK3p4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5qfMc-EK3p4",
+      "views": "27",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "7p1l4-YNuFQ",
+      "title": "Money! Money!! Money!!! - Raccoin",
+      "label": "Livestream",
+      "publishedAt": "2026-11-11T18:31:34Z",
+      "startedAt": "2026-11-11T02:02:15Z",
+      "endedAt": "2026-11-11T05:02:13Z",
+      "scheduledAt": null,
+      "duration": "PT2H56M55S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/7p1l4-YNuFQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7p1l4-YNuFQ",
+      "views": "51",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "_Lq5pKJ_TwM",
+      "title": "Onward to our last badge! - Pokemon Shining Pearl",
+      "label": "Livestream",
+      "publishedAt": "2026-11-10T17:47:59Z",
+      "startedAt": "2026-11-10T02:07:01Z",
+      "endedAt": "2026-11-10T04:41:32Z",
+      "scheduledAt": null,
+      "duration": "PT2H32M10S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_Lq5pKJ_TwM",
+      "views": "64",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "1mk5a3N4ODk",
+      "title": "Dark Necessities: The Storm over Thet-Annath Ep 42 (DnD)",
+      "label": "Livestream",
+      "publishedAt": "2026-11-07T18:14:42Z",
+      "startedAt": "2026-11-07T02:06:48Z",
+      "endedAt": "2026-11-07T05:04:57Z",
+      "scheduledAt": null,
+      "duration": "PT2H57M52S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/1mk5a3N4ODk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1mk5a3N4ODk",
+      "views": "109",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "1YD1ZIu4A1s",
+      "title": "Vs Team Galactic! -  Pokemon Shining Pearl",
+      "label": "Livestream",
+      "publishedAt": "2026-11-06T17:52:07Z",
+      "startedAt": "2026-11-06T02:24:32Z",
+      "endedAt": "2026-11-06T04:46:02Z",
+      "scheduledAt": null,
+      "duration": "PT2H21M10S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/1YD1ZIu4A1s/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1YD1ZIu4A1s",
+      "views": "65",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "-3VZZpsJq5U",
+      "title": "It's freezing out here! -  Pokemon Shining Pearl",
+      "label": "Livestream",
+      "publishedAt": "2026-11-05T19:13:24Z",
+      "startedAt": "2026-11-05T02:12:23Z",
+      "endedAt": "2026-11-05T03:04:58Z",
+      "scheduledAt": null,
+      "duration": "PT52M23S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/-3VZZpsJq5U/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-3VZZpsJq5U",
+      "views": "85",
+      "live": false,
+      "wasLive": true
+    }
+  ],
+  "latestReplays": [
+    {
+      "id": "5qfMc-EK3p4",
+      "title": "Feeling cozy in a new dress - Dressmaker",
+      "label": "Replay",
+      "publishedAt": "2026-11-13T18:31:15Z",
+      "startedAt": "2026-11-13T02:03:52Z",
+      "endedAt": "2026-11-13T04:25:18Z",
+      "scheduledAt": null,
+      "duration": "PT2H17M13S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/5qfMc-EK3p4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5qfMc-EK3p4",
+      "views": "27",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "7p1l4-YNuFQ",
+      "title": "Money! Money!! Money!!! - Raccoin",
+      "label": "Replay",
+      "publishedAt": "2026-11-11T18:31:34Z",
+      "startedAt": "2026-11-11T02:02:15Z",
+      "endedAt": "2026-11-11T05:02:13Z",
+      "scheduledAt": null,
+      "duration": "PT2H56M55S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/7p1l4-YNuFQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7p1l4-YNuFQ",
+      "views": "51",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "_Lq5pKJ_TwM",
+      "title": "Onward to our last badge! - Pokemon Shining Pearl",
+      "label": "Replay",
+      "publishedAt": "2026-11-10T17:47:59Z",
+      "startedAt": "2026-11-10T02:07:01Z",
+      "endedAt": "2026-11-10T04:41:32Z",
+      "scheduledAt": null,
+      "duration": "PT2H32M10S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/_Lq5pKJ_TwM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_Lq5pKJ_TwM",
+      "views": "64",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "1mk5a3N4ODk",
+      "title": "Dark Necessities: The Storm over Thet-Annath Ep 42 (DnD)",
+      "label": "Replay",
+      "publishedAt": "2026-11-07T18:14:42Z",
+      "startedAt": "2026-11-07T02:06:48Z",
+      "endedAt": "2026-11-07T05:04:57Z",
+      "scheduledAt": null,
+      "duration": "PT2H57M52S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/1mk5a3N4ODk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1mk5a3N4ODk",
+      "views": "109",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "1YD1ZIu4A1s",
+      "title": "Vs Team Galactic! -  Pokemon Shining Pearl",
+      "label": "Replay",
+      "publishedAt": "2026-11-06T17:52:07Z",
+      "startedAt": "2026-11-06T02:24:32Z",
+      "endedAt": "2026-11-06T04:46:02Z",
+      "scheduledAt": null,
+      "duration": "PT2H21M10S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/1YD1ZIu4A1s/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1YD1ZIu4A1s",
+      "views": "65",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "-3VZZpsJq5U",
+      "title": "It's freezing out here! -  Pokemon Shining Pearl",
+      "label": "Replay",
+      "publishedAt": "2026-11-05T19:13:24Z",
+      "startedAt": "2026-11-05T02:12:23Z",
+      "endedAt": "2026-11-05T03:04:58Z",
+      "scheduledAt": null,
+      "duration": "PT52M23S",
+      "embeddable": true,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/-3VZZpsJq5U/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-3VZZpsJq5U",
+      "views": "85",
+      "live": false,
+      "wasLive": true
+    }
+  ],
+  "liveStatus": {
+    "status": "unknown",
+    "video": null,
+    "checkedAt": "2026-11-16T16:27:47.913Z",
+    "expiresAt": "2026-11-16T17:12:47.913Z",
+    "method": "recent_uploads",
+    "note": "Not detected does not prove offline; observations expire after 45 minutes."
+  },
+  "collabs": [],
+  "collabIssues": [],
+  "scannedUploadCount": 400,
+  "scanNote": "Only recent public uploads are scanned; some past/live broadcasts may not be indexed.",
+  "playlists": [],
+  "collabSources": {},
+  "legacyCollabs": [],
+  "sections": {
+    "channel": {
+      "status": "fresh",
+      "updatedAt": "2026-11-16T16:27:47.913Z"
+    },
+    "videos": {
+      "status": "fresh",
+      "updatedAt": "2026-11-16T16:27:47.913Z"
+    },
+    "collabs": {
+      "status": "fresh",
+      "updatedAt": "2026-11-16T16:27:47.913Z"
+    }
+  },
+  "issues": [],
+  "freshness": {
+    "liveFresh": true,
+    "observedAt": "2026-11-16T16:27:47.913Z",
+    "evaluatedAt": "2026-11-16T16:27:52.922Z"
+  }
+}
